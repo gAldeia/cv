@@ -1,0 +1,244 @@
+$font-body: 'Times New Roman', Times, Georgia, serif;
+$font-heading: 'Times New Roman', Times, Georgia, serif;
+$color-text: #000;
+
+body {
+  font-family: $font-body;
+  color: $color-text;
+  margin: 2in;
+  line-height: 1.3;
+  background: #fff;
+  font-size: 1.05rem;
+}
+
+.cv-description {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 0.9rem; // base size for mobile
+  width: 100%;       // full width on small screens
+  max-width: 100%;
+  margin: 0 auto;    // center horizontally
+
+  @media (min-width: 1024px) {
+    width: 50%;         // half the width on large screens
+    max-width: 50%;
+    font-size: 0.7rem;  // smaller text on desktop
+    margin-left: auto;  // center horizontally
+    margin-right: auto;
+  }
+}
+
+.cv-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.cv-name {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  font-family: $font-heading;
+}
+
+.cv-contact {
+  font-size: 1rem;
+  margin-bottom: 0.2em;
+  color: #000;
+  text-align: center;
+}
+
+.cv-affiliation {
+  font-size: 1rem;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 0.1em;
+}
+
+.cv-section {
+  margin-bottom: 1.5em;
+}
+
+.cv-section-title {
+  font-family: $font-heading;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+  text-align: left;
+}
+
+.cv-section-rule {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 0.1em 0 0.7em 0;
+}
+
+.cv-entry {
+  margin-bottom: 0.7em;
+}
+
+.cv-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.1em;
+  flex-wrap: wrap;
+}
+
+.cv-entry-main {
+  font-weight: bold;
+  font-size: 1rem;
+  flex: 1 1 60%;
+  text-align: left;
+  min-width: 180px;
+}
+
+.cv-entry-institution {
+  font-weight: bold;
+}
+
+.cv-entry-degree {
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 0.2em;
+}
+
+.cv-entry-meta {
+  text-align: right;
+  flex: 0 0 38%;
+  min-width: 120px;
+  word-break: break-word;
+}
+
+.cv-entry-location {
+  font-size: 1rem;
+  margin-right: 0.5em;
+}
+
+.cv-entry-dates {
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.cv-entry-bullets {
+  margin-left: 1.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+}
+
+.cv-entry-bullets li {
+  margin-bottom: 0.1em;
+  font-size: 1rem;
+}
+
+ul {
+  margin-left: 1.2em;
+}
+
+.cv-socials a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cv-socials a:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.cv-socials-print {
+  display: none;
+  font-size: 0.95rem;
+  margin-top: 0.5em;
+}
+
+.cv-socials-print a {
+  display: block;
+  margin-bottom: 0.1em;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0.5in 0.2in;
+    font-size: 1rem;
+  }
+  .cv-header {
+    margin-bottom: 1em;
+  }
+  .cv-name {
+    font-size: 1.5rem;
+  }
+  .cv-section-title {
+    font-size: 1rem;
+  }
+  .cv-entry-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cv-entry-main, .cv-entry-meta {
+    text-align: left;
+    min-width: 0;
+    width: 100%;
+    margin-bottom: 0.1em;
+  }
+  .cv-entry-meta {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.1em;
+  }
+  .cv-entry-location {
+    text-align: left;
+  }
+  .cv-entry-dates {
+    text-align: right;
+    flex-shrink: 0;
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0.2in 0.1in;
+    font-size: 0.95rem;
+  }
+  .cv-name {
+    font-size: 1.1rem;
+  }
+  .cv-section-title {
+    font-size: 0.95rem;
+  }
+}
+
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+    font-size: 11pt;
+    margin: 0.5in;
+  }
+  .cv-header, .cv-entry {
+    page-break-inside: avoid;
+  }
+  a {
+    color: #1a73e8 !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+    position: relative;
+  }
+  a:after {
+    content: '';
+  }
+  .cv-section-rule {
+    border-top: 1.5px solid #000;
+  }
+  .cv-socials { display: none !important; }
+  .cv-socials-print { display: block !important; }
+}
