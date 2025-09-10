@@ -22,7 +22,7 @@ title: Guilherme S. Imai Aldeia
 email: guilherme.seidyo@gmail.com
 description: >- # >- this means to ignore newlines until next entry
   Guilherme S. Imai Aldeia - CV.
-baseurl: ""  # leave empty if deploying to user repo gh-pages # the subpath of your site, e.g. /blog. GitHub Pages baseurl (leave blank for user pages)
+baseurl: "/cv"  # leave empty if deploying to user repo gh-pages # the subpath of your site, e.g. /blog. GitHub Pages baseurl (leave blank for user pages), or add the github repo if not using user.github.io
 url: "https://galdeia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github:  gAldeia
