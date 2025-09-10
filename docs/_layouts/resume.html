@@ -10,7 +10,7 @@ layout: default
             {% if site.data.cv.avatar.src contains "http" %}
             <img class="cv-avatar" src="{{ site.data.resume.avatar.src }}" alt="Avatar">
             {% else %}
-            <img class="cv-avatar" src="{{ site.data.cv.avatar.src | absolute_url }}" alt="Avatar">
+            <img class="cv-avatar" src="{{ site.data.cv.avatar.src | relative_url }}" alt="Avatar">
             {% endif %}
             {% endif %}
         </div>
@@ -26,7 +26,7 @@ layout: default
         <div class="cv-contact">{{ site.phone }}</div>
         {% endif %}
         {% if site.website %}
-        <div class="cv-contact"><a href="{{ site.website  }}">{{ site.website }}</a></div>
+        <div class="cv-contact"><a href="{{ site.website }}">{{ site.website }}</a></div>
         {% endif %}
         <div class="cv-socials" style="margin-top:0.5em;">
             {% if site.linkedin %}
