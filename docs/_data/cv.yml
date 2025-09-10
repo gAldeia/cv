@@ -21,6 +21,10 @@ sections:
         sub: "Latin-American Summer School in Computational Neuroscience"
         location: "Valparaíso, Chile"
         dates: "2025"
+      - title: "Federal University of ABC"
+        sub: "B.Sc in Neuroscience"
+        location: "Brazil"
+        dates: "2023"
       - title: "Boston Children's Hospital - Harvard Medical School"
         sub: "Visitor PhD Student"
         location: "Boston, USA"
@@ -34,9 +38,9 @@ sections:
         location: "Brazil"
         dates: "2020"
       - title: "Federal University of ABC"
-        sub: "B.Sc in Neuroscience"
+        sub: "B.Sc in Science and Technology"
         location: "Brazil"
-        dates: "2023"
+        dates: "2019"
 
   - title: Experience
     entries:
