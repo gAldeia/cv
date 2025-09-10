@@ -7,3 +7,5 @@ the website is inside `./docs` folder.
 Testing locally: `bundle exec jekyll serve` (inside docs)
 
 Using https://gist.github.com/roachhd/ed8da4786ba79dfc4d91 to show publications
+
+Don't forget to create a branch called `gh-pages`, and to set to build from that branch using the `root` folder.
