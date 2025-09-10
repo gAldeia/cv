@@ -20,13 +20,15 @@ jobs:
           bundler-cache: true
 
       - name: Install dependencies
+        working-directory: ./docs
         run: bundle install
 
       - name: Build Jekyll site
+        working-directory: ./docs
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./docs/_site
