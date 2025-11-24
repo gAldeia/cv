@@ -7,14 +7,14 @@ entries:
       - "Using symbolic regression and language models to generate computable phenotypes for hypertension from EHR data."
   - title: "Understanding Pediatric Headaches with ML and Explainable AI"
     sub: "PhD Research Project"
-    location: "Boston Children’s Hospital - Harvard Medical School"
+    location: "Boston Children's Hospital - Harvard Medical School"
     dates: "2023 - ongoing"
     bullets:
       - "Training and interpreting ML classifiers on pediatric fMRI data to understand pain mechanisms in youth."
-  - title: "Improvements in Symbolic Regression"
+  - title: "Current challenges of Symbolic Regression"
     sub: "PhD Thesis"
     location: "Federal University of ABC"
-    dates: "2022 - ongoing"
+    dates: "2022 - 2025"
     bullets:
       - "Focused on enhancing model accuracy and interpretability in symbolic regression."
   - title: "Interpretability in Symbolic Regression"
@@ -34,4 +34,4 @@ entries:
     location: "Federal University of ABC"
     dates: "2019"
     bullets:
-      - "Studied symbolic regression and proposed the Interaction–Transformation Evolutionary Algorithm (ITEA)."
+      - "Studied symbolic regression and proposed the Interaction-Transformation Evolutionary Algorithm (ITEA)."
