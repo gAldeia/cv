@@ -15,7 +15,7 @@ sections:
     entries:
       - title: "Federal University of ABC"
         sub: "PhD in Computer Science"
-        location: "Brazil"
+        location: "Santo André, SP, Brazil"
         dates: "2025"
       - title: "Universidad de Valparaíso"
         sub: "Latin-American Summer School in Computational Neuroscience"
@@ -23,58 +23,65 @@ sections:
         dates: "2025"
       - title: "Federal University of ABC"
         sub: "B.Sc in Neuroscience"
-        location: "Brazil"
+        location: "Santo André, SP, Brazil"
         dates: "2023"
-      - title: "Boston Children's Hospital - Harvard Medical School"
+      - title: "Boston Children's Hospital"
         sub: "Visitor PhD Student"
-        location: "Boston, USA"
+        location: "Boston, MA, USA"
         dates: "2023 (6 months)"
       - title: "Federal University of ABC"
         sub: "M.Sc in Computer Science"
-        location: "Brazil"
+        location: "Santo André, SP, Brazil"
         dates: "2022"
       - title: "Federal University of ABC"
         sub: "B.Sc in Computer Science"
-        location: "Brazil"
+        location: "Santo André, SP, Brazil"
         dates: "2020"
       - title: "Federal University of ABC"
         sub: "B.Sc in Science and Technology"
-        location: "Brazil"
+        location: "Santo André, SP, Brazil"
         dates: "2019"
 
   - title: Experience
     entries:
+      - title: "Postdoctoral Fellow · Boston Children's Hospital, Harvard Medical School"
+        location: "Boston, MA, USA"
+        dates: "2026 - ongoing"
+        bullets:
+          - "Post-doc on Cavalab. Postdoctoral fellow in BCH. Research fellow in Pediatrics HMS"
       - title: "Teaching Assistant · FIAP"
-        location: "Brazil"
-        dates: "2023-2025"
+        location: "São Paulo, SP, Brazil"
+        dates: "2023 - 2025"
         bullets:
-          - "Assisted in courses on Artificial Intelligence and Machine Learning."
+          - "Teaching in courses on Artificial Intelligence and Machine Learning."
       - title: "Teaching Internship · Federal University of ABC"
-        location: "Brazil"
-        dates: "2020, 2022"
+        location: "Santo André, SP, Brazil"
+        dates: "2022 (3 months)"
         bullets:
-          - "Developed weekly programming exercises for students (3 months)."
-          - "Teaching assistant for Algorithm Complexity Analysis (3 months)."
+          - "Teaching assistant for Algorithm Complexity Analysis."
+      - title: "Teaching Internship · Federal University of ABC"
+        location: "Santo André, SP, Brazil"
+        dates: "2020 (3 months)"
+        bullets:
+          - "Developed programming exercises for students."
+
+  - title: Skills
+    entries:
       - title: "Researcher"
-        location: "Various Institutions"
-        dates: "2019 - ongoing"
         bullets:
           - "14 publications with 180+ citations since 2020."
           - "Two journal publications (IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.) and multiple international conferences (GECCO, ML4HC, WCCI CEC)."
           - "Peer reviewer for IEEE Trans. Evol. Comput., IEEE WCCI, IEEE CAI, and Royal Society since 2022."
           - "1st Place Undergraduate Final Project at Brazilian Symposium on Information Systems CTCCSI (2020)."
-
-  - title: Skills
-    entries:
       - title: "Programming Languages"
         bullets:
-          - "Python, C++, Julia"
+          - "Python, C/C++, Julia, Javascript"
       - title: "Tools & Systems"
         bullets:
           - "Linux (10+ years), Bash, SSH, Docker, SLURM, Git, LaTeX, Cloud Computing"
       - title: "Soft Skills"
         bullets:
-          - "Quick learner, scientific outreach, guitar player"
+          - "Quick learner, scientific outreach, amazing guitar player"
       - title: "Languages"
         bullets:
           - "Portuguese (native), English (fluent), Spanish (basic)"
