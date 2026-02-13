@@ -78,9 +78,8 @@ sections:
           - "Journals: IEEE Trans. Evol. Comput., and Royal Society"
           - "Conferences: IEEE WCCI, IEEE CAI"
       - title: "Awards"
-          - "1st Place Undergraduate Final Project at Brazilian Symposium on Information Systems CTCCSI (2020)."
         bullets:
-          - "Post-doc on Cavalab. Postdoctoral fellow in BCH. Research fellow in Pediatrics HMS"
+          - "1st Place Undergraduate Final Project at Brazilian Symposium on Information Systems CTCCSI (2020)."
 
   - title: Technical Skills
     entries:
@@ -92,7 +91,7 @@ sections:
           - "Linux (10+ years), Bash, SSH, Docker, SLURM, Git, LaTeX, Cloud Computing. Computer hardware assembly and maintence."
       - title: "Soft Skills"
         bullets:
-          - "Quick learner, critical thinking, problem-solving, "
+          - "Quick learner, critical thinking, problem-solving"
       - title: "Languages"
         bullets:
           - "Portuguese (native), English (fluent), Spanish (basic)"
