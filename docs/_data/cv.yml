@@ -13,7 +13,7 @@ description: >-
 sections:
   - title: Education
     entries:
-      - title: "Federal University of ABC"
+      - title: "Universidade Federal do ABC"
         sub: "PhD in Computer Science"
         location: "Santo André, SP, Brazil"
         dates: "2025"
@@ -21,7 +21,7 @@ sections:
         sub: "Latin-American Summer School in Computational Neuroscience"
         location: "Valparaíso, Chile"
         dates: "2025"
-      - title: "Federal University of ABC"
+      - title: "Universidade Federal do ABC"
         sub: "B.Sc in Neuroscience"
         location: "Santo André, SP, Brazil"
         dates: "2023"
@@ -29,15 +29,15 @@ sections:
         sub: "Visitor PhD Student"
         location: "Boston, MA, USA"
         dates: "2023 (6 months)"
-      - title: "Federal University of ABC"
+      - title: "Universidade Federal do ABC"
         sub: "M.Sc in Computer Science"
         location: "Santo André, SP, Brazil"
         dates: "2022"
-      - title: "Federal University of ABC"
+      - title: "Universidade Federal do ABC"
         sub: "B.Sc in Computer Science"
         location: "Santo André, SP, Brazil"
         dates: "2020"
-      - title: "Federal University of ABC"
+      - title: "Universidade Federal do ABC"
         sub: "B.Sc in Science and Technology"
         location: "Santo André, SP, Brazil"
         dates: "2019"
@@ -54,34 +54,45 @@ sections:
         dates: "2023 - 2025"
         bullets:
           - "Teaching in courses on Artificial Intelligence and Machine Learning."
-      - title: "Teaching Internship · Federal University of ABC"
+      - title: "Teaching Internship · Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
         dates: "2022 (3 months)"
         bullets:
           - "Teaching assistant for Algorithm Complexity Analysis."
-      - title: "Teaching Internship · Federal University of ABC"
+      - title: "Teaching Internship · Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
         dates: "2020 (3 months)"
         bullets:
           - "Developed programming exercises for students."
 
-  - title: Skills
+  - title: Publications
     entries:
-      - title: "Researcher"
+      - title: "Published papers"
         bullets:
-          - "14 publications with 180+ citations since 2020."
-          - "Two journal publications (IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.) and multiple international conferences (GECCO, ML4HC, WCCI CEC)."
-          - "Peer reviewer for IEEE Trans. Evol. Comput., IEEE WCCI, IEEE CAI, and Royal Society since 2022."
+          - "14 publications with 180+ citations since 2020"
+          - "Two journal publications (IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.)"
+          - "Multiple international conferences (GECCO, ML4HC, WCCI CEC)"
+      - title: "Peer review"
+        bullets:
+          - "12 reviews for journals and 13 reviews for conferences since 2022"
+          - "Journals: IEEE Trans. Evol. Comput., and Royal Society"
+          - "Conferences: IEEE WCCI, IEEE CAI"
+      - title: "Awards"
           - "1st Place Undergraduate Final Project at Brazilian Symposium on Information Systems CTCCSI (2020)."
+        bullets:
+          - "Post-doc on Cavalab. Postdoctoral fellow in BCH. Research fellow in Pediatrics HMS"
+
+  - title: Technical Skills
+    entries:
       - title: "Programming Languages"
         bullets:
           - "Python, C/C++, Julia, Javascript"
       - title: "Tools & Systems"
         bullets:
-          - "Linux (10+ years), Bash, SSH, Docker, SLURM, Git, LaTeX, Cloud Computing"
+          - "Linux (10+ years), Bash, SSH, Docker, SLURM, Git, LaTeX, Cloud Computing. Computer hardware assembly and maintence."
       - title: "Soft Skills"
         bullets:
-          - "Quick learner, scientific outreach, amazing guitar player"
+          - "Quick learner, critical thinking, problem-solving, "
       - title: "Languages"
         bullets:
           - "Portuguese (native), English (fluent), Spanish (basic)"
