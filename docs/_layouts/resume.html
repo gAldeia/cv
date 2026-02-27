@@ -133,11 +133,11 @@ layout: default
         <div class="cv-entry">
             <div class="cv-entry-header">
                 <div class="cv-entry-main">
-                    <span class="cv-entry-institution">{{ e.title }}</span>{% if e.sub %}<span class="cv-entry-degree">,
+                    <span class="cv-entry-institution">{{ e.title }}</span>{% if e.sub %}<br><span class="cv-entry-degree">
                         <em>{{ e.sub }}</em></span>{% endif %}
                 </div>
                 <div class="cv-entry-meta">
-                    {% if e.location %}<span class="cv-entry-location">{{ e.location }}</span>{% endif %}
+                    {% if e.location %}<span class="cv-entry-location">{{ e.location }}</span>{% endif %}{% if e.gpa %}<span class="cv-entry-gpa">{{ e.gpa }}</span>{% endif %}
                     {% if e.dates %}<span class="cv-entry-dates">{{ e.dates }}</span>{% endif %}
                 </div>
             </div>
@@ -147,6 +147,9 @@ layout: default
                 <li>{{ b }}</li>
                 {% endfor %}
             </ul>
+            {% endif %}
+            {% if e.description %}
+            <p class="cv-entry-description">{{ e.description }}</p>
             {% endif %}
         </div>
         {% endfor %}
@@ -180,6 +183,32 @@ layout: default
     </section>
 
     <section class="cv-section">
+    <h2 class="cv-section-title">AWARDS</h2>
+    <hr class="cv-section-rule" />
+    {% for e in site.data.awards.entries %}
+    <div class="cv-entry">
+        <div class="cv-entry-header">
+        <div class="cv-entry-main">
+            <span class="cv-entry-institution">{{ e.title }}</span>{% if e.sub %}<br><span class="cv-entry-degree">
+            <em>{{ e.sub }}</em></span>{% endif %}
+        </div>
+        <div class="cv-entry-meta">
+            {% if e.location %}<span class="cv-entry-location">{{ e.location }}</span>{% endif %}{% if e.gpa %}<span class="cv-entry-gpa">{{ e.gpa }}</span>{% endif %}
+            {% if e.dates %}<span class="cv-entry-dates">{{ e.dates }}</span>{% endif %}
+        </div>
+        </div>
+        {% if e.bullets %}
+        <ul class="cv-entry-bullets">
+        {% for b in e.bullets %}
+        <li>{{ b }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+    {% endfor %}
+    </section>
+
+    <section class="cv-section">
     <h2 class="cv-section-title">PUBLICATIONS</h2>
     <hr class="cv-section-rule" />
 
@@ -188,3 +217,21 @@ layout: default
 
 
 </article>
+
+<script>
+  // Make my name bold in publications
+  document.addEventListener('DOMContentLoaded', function() {
+    const bibliography = document.querySelector('.cv-section:last-of-type');
+    if (bibliography) {
+      bibliography.innerHTML = bibliography.innerHTML.replace(/Aldeia, Guilherme Seidyo Imai/g, '<strong>Aldeia, Guilherme Seidyo Imai</strong>');
+    }
+  });
+</script>
+<script>
+    // Render __text__ as italic everywhere
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.cv-section, .cv-description').forEach(function(section) {
+            section.innerHTML = section.innerHTML.replace(/__(.*?)__/g, '<em>$1</em>');
+        });
+    });
+</script>

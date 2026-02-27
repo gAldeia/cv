@@ -2,96 +2,125 @@ avatar:
   enabled: true
   src: "/assets/avatar.jpeg"
 description: >-
-  Guilherme earned his PhD in November 2025 and researches genetic programming and
-  its applications in the health sciences. His works include developing methods for
-  symbolic regression, applying machine learning to fMRI data, and advancing
-  explainable artificial intelligence applications.
+  Guilherme earned his PhD in December 2025 and researches genetic programming and large language models for health applications. He completed three majors at a top Brazilian federal university known for academic quality and international partnerships.
 
-  He is currently interested in evolutionary computing, interpretability in machine 
-  learning, optimization methods for symbolic regression, and computational models 
-  of neural information processing.
+  His work includes developing methods for symbolic regression, applying machine learning to fMRI data, and advancing explainable AI. He has experience in digital signal processing and has led computational experiments resulting in publications.
+
+  His interests include evolutionary computing, model interpretability, healthcare prediction, brain data analysis, and projects that improve quality of life.
 sections:
   - title: Education
     entries:
-      - title: "Universidade Federal do ABC"
-        sub: "PhD in Computer Science"
+      - title: "PhD in Computer Science"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
-        dates: "2025"
-      - title: "Universidad de Valparaíso"
-        sub: "Latin-American Summer School in Computational Neuroscience"
-        location: "Valparaíso, Chile"
-        dates: "2025"
-      - title: "Universidade Federal do ABC"
-        sub: "B.Sc in Neuroscience"
+        dates: "Feb 2023 - Dec 2025"
+        gpa: "GPA: 4.0/4.0"
+      - title: "M.Sc in Computer Science"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
-        dates: "2023"
-      - title: "Boston Children's Hospital"
-        sub: "Visitor PhD Student"
-        location: "Boston, MA, USA"
-        dates: "2023 (6 months)"
-      - title: "Universidade Federal do ABC"
-        sub: "M.Sc in Computer Science"
+        dates: "Feb 2020 - Dec 2021"
+        gpa: "GPA: 4.0/4.0"
+      - title: "B.Sc in Neuroscience"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
-        dates: "2022"
-      - title: "Universidade Federal do ABC"
-        sub: "B.Sc in Computer Science"
+        dates: "May 2015 - Apr 2023"
+      - title: "B.Sc in Computer Science"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
-        dates: "2020"
-      - title: "Universidade Federal do ABC"
-        sub: "B.Sc in Science and Technology"
+        dates: "May 2015 - Feb 2020"
+      - title: "B.Sc in Science and Technology"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
-        dates: "2019"
+        dates: "May 2015 - Dec 2019"
 
   - title: Experience
     entries:
-      - title: "Postdoctoral Fellow · Boston Children's Hospital, Harvard Medical School"
+      - title: "Postdoctoral Fellow"
+        sub: "Boston Children's Hospital, Harvard Medical School"
         location: "Boston, MA, USA"
         dates: "2026 - ongoing"
         bullets:
-          - "Post-doc on Cavalab. Postdoctoral fellow in BCH. Research fellow in Pediatrics HMS"
-      - title: "Teaching Assistant · FIAP"
+          - "Postdoctoral researcher at Cavalab, BCH, and Pediatrics, HMS. Contributed to multiple research projects."
+      - title: "Latin-American Summer School in Computational Neuroscience"
+        sub: "Universidad de Valparaíso"
+        location: "Valparaíso, Chile"
+        dates: "2025 (1 month)"
+        bullets: "Attended a three-week summer school. Developed a project simulating neuron populations in the rat visual cortex, based on literature review of neuron types and pathways."
+      - title: "Teaching Assistant"
+        sub: "FIAP"
         location: "São Paulo, SP, Brazil"
         dates: "2023 - 2025"
         bullets:
-          - "Teaching in courses on Artificial Intelligence and Machine Learning."
-      - title: "Teaching Internship · Universidade Federal do ABC"
+          - "Taught AI and ML courses online and in person. Prepared materials, exams, and mentored annual projects in partnership with tech companies. Emphasized hands-on, practical learning."
+      - title: "Visitor PhD Student"
+        sub: "Boston Children's Hospital"
+        location: "Boston, MA, USA"
+        dates: "2023 (6 months)"
+        bullets: "Participated in lab meetings, journal clubs, and health science projects. Worked with data, received HIPAA/PHI training, contributed to grant reports, and gained SLURM experience."
+      - title: "Teaching Internship"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
         dates: "2022 (3 months)"
         bullets:
-          - "Teaching assistant for Algorithm Complexity Analysis."
-      - title: "Teaching Internship · Universidade Federal do ABC"
+          - "Assisted in Algorithm Complexity Course. Prepared exercises and answer keys, taught mathematical proofs, and provided weekly student support."
+      - title: "Teaching Internship"
+        sub: "Universidade Federal do ABC"
         location: "Santo André, SP, Brazil"
         dates: "2020 (3 months)"
         bullets:
-          - "Developed programming exercises for students."
-
-  - title: Publications
+          - "Developed programming exercises and answer keys in Python and Java. Created test cases for automated grading. Collaborated weekly with the professor on course content."
+      - title: "UFABC Rocket Design"
+        sub: "Universidade Federal do ABC"
+        location: "Santo André, SP, Brazil"
+        dates: "2017 - 2019"
+        bullets:
+          - "Developed Arduino code for sensor integration and telemetry in rocket embedded systems. Managed flight data collection, communication, and recovery system activation."
+      - title: "Heuristics, Analysis, and Learning (HAL) Laboratory"
+        sub: "Universidade Federal do ABC"
+        location: "Santo André, SP, Brazil"
+        dates: "2017 - 2025"
+        bullets:
+          - "Conducted research in genetic programming for symbolic regression. Published and collaborated on multiple projects. Designed experiments and analyzed results."
+      
+  - title: Research Summary
     entries:
-      - title: "Published papers"
+      - title: "Published Papers"
         bullets:
-          - "14 publications with 180+ citations since 2020"
-          - "Two journal publications (IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.)"
-          - "Multiple international conferences (GECCO, ML4HC, WCCI CEC)"
-      - title: "Peer review"
+          - "14 publications, 190+ citations since 2020."
+          - "Two journal articles (IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.)"
+          - "Presented at international conferences (GECCO, ML4HC, WCCI CEC)."
+      - title: "Peer Review"
         bullets:
-          - "12 reviews for journals and 13 reviews for conferences since 2022"
-          - "Journals: IEEE Trans. Evol. Comput., and Royal Society"
-          - "Conferences: IEEE WCCI, IEEE CAI"
-      - title: "Awards"
+          - "12 journal and 13 conference reviews since 2022."
+          - "Journals: IEEE Trans. Evol. Comput., Royal Society."
+          - "Conferences: IEEE WCCI, IEEE CAI."
+      - title: "Science Communication and Outreach"
         bullets:
-          - "1st Place Undergraduate Final Project at Brazilian Symposium on Information Systems CTCCSI (2020)."
+          - "Evaluator for three years at <em>Feira Brasileira de Ciência e Engenharia</em> (FEBRACE), the largest Latin American science fair."
+          - "Contributed to <em>Met@Aprendizagem</em>, a project to improve programming skills for undergrad students of different majors."
+          - "Volunteered for two years at <em>UFABC para todos</em>, encouraging students to pursue higher education."
 
   - title: Technical Skills
     entries:
       - title: "Programming Languages"
         bullets:
-          - "Python, C/C++, Julia, Javascript"
+        - "Fluent in Python, C, C++, Julia, Java, JavaScript, Arduino."
+        - "Experienced in Haskell, Matlab, R, Octave, TypeScript, HTML, CSS, SASS, PHP, C#, .NET, SQL."
+        - "Comfortable with object-oriented, functional, imperative, descriptive, meta-programming, and multiple dispatch paradigms."
       - title: "Tools & Systems"
         bullets:
-          - "Linux (10+ years), Bash, SSH, Docker, SLURM, Git, LaTeX, Cloud Computing. Computer hardware assembly and maintence."
+          - "Linux user for 10+ years (Bash, system management, virtual environments)."
+          - "Git for collaborative development, project management, code review."
+          - "LaTeX for writing and formatting; cloud computing with SSH, Docker, SLURM."
       - title: "Soft Skills"
+        bullets: "Quick learner, critical thinking, problem-solving, adaptability, proactive, self-motivated."
+      - title: "Hard Skills"
         bullets:
-          - "Quick learner, critical thinking, problem-solving"
+        - "Data analysis and visualization (advanced plotting of multimodal data)."
+        - "Statistics (t-test, ANOVA, p-value correction, sample size, confidence intervals, Fisher information)."
+        - "Big data: mining, pipelines, standardization, harmonization, structured and unstructured databases."
+        - "Integrations: building and consuming REST APIs, webhooks, CI/CD."
+        - "Complex projects: contributed to codebases with 100+ files and 30k+ lines. Experience with test-driven development and large test suites. Developed and published Python libraries."
+        - "Reproducibility: reading papers, source code, and replicating computational experiments."
       - title: "Languages"
-        bullets:
-          - "Portuguese (native), English (fluent), Spanish (basic)"
+        bullets: "Portuguese (native), English (fluent), Spanish (basic)."
