@@ -2,11 +2,12 @@ avatar:
   enabled: true
   src: "/assets/avatar.jpeg"
 description: >-
-  Guilherme earned his PhD in December 2025 and researches genetic programming and large language models for health applications. He completed three majors at a top Brazilian federal university known for academic quality and international partnerships.
+  Guilherme earned his PhD in Computer Science in December 2025, focusing on the computational study and algorithmic improvement of symbolic regression methods and benchmarks. He also holds B.S. degrees in Computer Science and Neuroscience, all from the Federal University of ABC in Brazil.
 
-  His work includes developing methods for symbolic regression, applying machine learning to fMRI data, and advancing explainable AI. He has experience in digital signal processing and has led computational experiments resulting in publications.
+  He is currently a postdoctoral researcher at CavaLab, where he joined in February 2026.
+  His current work includes developing methods and applications of symbolic regression and large language models for healthcare, with an emphasis on interpretable decision-making and predictive modeling. He also works on machine learning models using fMRI data and neural network applications for temporal data.
 
-  His interests include evolutionary computing, model interpretability, healthcare prediction, brain data analysis, and projects that improve quality of life.
+  His research interests include model interpretability, data visualization, explainable AI, and healthcare prediction and modeling.
 sections:
   - title: Education
     entries:
