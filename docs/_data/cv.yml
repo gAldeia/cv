@@ -87,8 +87,8 @@ sections:
     entries:
       - title: "Published Papers"
         bullets:
-          - "14 publications, 190+ citations since 2020."
-          - "Two journal articles (IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.)"
+          - "14 publications, 210+ citations since 2020."
+          - "Three journal articles (Philos. Trans. R. Soc. A., IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.)"
           - "Presented at international conferences (GECCO, ML4HC, WCCI CEC)."
       - title: "Peer Review"
         bullets:
