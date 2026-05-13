@@ -92,9 +92,10 @@ sections:
           - "Presented at international conferences (GECCO, ML4HC, WCCI CEC)."
       - title: "Peer Review"
         bullets:
-          - "12 journal and 13 conference reviews since 2022."
+          - "12 journal, 13 conference, and 1 workshop reviews since 2022."
           - "Journals: IEEE Trans. Evol. Comput., Royal Society."
           - "Conferences: IEEE WCCI, IEEE CAI."
+          - "Workshop: IEEE WCCI SymReg."
       - title: "Science Communication and Outreach"
         bullets:
           - "Evaluator for three years at <em>Feira Brasileira de Ciência e Engenharia</em> (FEBRACE), the largest Latin American science fair."
