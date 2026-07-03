@@ -42,11 +42,6 @@ sections:
         dates: "2026 - ongoing"
         bullets:
           - "Postdoctoral researcher at Cavalab, BCH, and Pediatrics, HMS. Contributed to multiple research projects."
-      - title: "Latin-American Summer School in Computational Neuroscience"
-        sub: "Universidad de Valparaíso"
-        location: "Valparaíso, Chile"
-        dates: "2025 (1 month)"
-        bullets: "Attended a three-week summer school. Developed a project simulating neuron populations in the rat visual cortex, based on literature review of neuron types and pathways."
       - title: "Teaching Assistant"
         sub: "FIAP"
         location: "São Paulo, SP, Brazil"
@@ -87,7 +82,7 @@ sections:
     entries:
       - title: "Published Papers"
         bullets:
-          - "14 publications, 210+ citations since 2020."
+          - "14 publications, 240+ citations since 2020."
           - "Three journal articles (Philos. Trans. R. Soc. A., IEEE Trans. Evol. Comput., Genet. Program. Evolvable Mach.)"
           - "Presented at international conferences (GECCO, ML4HC, WCCI CEC)."
       - title: "Peer Review"
@@ -126,3 +121,17 @@ sections:
         - "Reproducibility: reading papers, source code, and replicating computational experiments."
       - title: "Languages"
         bullets: "Portuguese (native), English (fluent), Spanish (basic)."
+
+  - title: Extra-curricular studies
+    entries:
+      - title: "Latin-American Summer School in Computational Neuroscience"
+        sub: "Organizers: Instituto de Sistemas Complejos de Valparaíso"
+        location: "Universidad de Valparaíso, Valparaíso, Chile"
+        dates: "2025 (1 month)"
+        bullets: "Completed a three-week summer school. Developed a project simulating neuron populations in the rat visual cortex based on a literature review of neuron types and neural pathways."
+      - title: "Health AI Summer Camp"
+        sub: "Organizers: Association for Health Learning and Inference"
+        location: "University of Washington, Seattle, WA"
+        dates: "2026 (1 week)"
+        bullets: "Completed a seven-day summer camp. Studied the full lifecycle of machine learning for healthcare projects and developed a project workbook applying the concepts to one of my postdoctoral research projects."
+        
